@@ -12,7 +12,8 @@ export default {
     }
   },
   methods: {
-    emitLetter: function(letter){
+    //Emit a button press, receive it and show the appropriate class.
+    emitLetter(letter){
       this.$emit('letterEvent', {letter: letter})
     }
   }

@@ -1,5 +1,6 @@
 <template>
-  <h1>Cameron's Hangman Game</h1>
+  <h1>🚀 Vue.js Hangman 🚀</h1>
+   
 </template>
 
 <script>
@@ -9,4 +10,10 @@ export default {
 </script>
 
 <style>
+h1 {
+  margin-top: 0;
+  padding-top: 50px;
+    text-transform:capitalize;
+
+}
 </style>
