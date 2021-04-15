@@ -165,8 +165,12 @@ export default {
     border-bottom: 4px solid transparent;
     border-radius: 5px;
     margin-top: 2px;
+    pointer-events: none;
 }
 
+.correct, .incorrect {
+    pointer-events: none;
+}
 .correct::before {
     content: "✔️";
     color: #18ce40;
